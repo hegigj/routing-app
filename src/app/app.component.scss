@@ -1,0 +1,17 @@
+button {
+  padding: 6px 12px;
+  border-radius: 5px;
+  border: none;
+  color: black;
+  background-color: darkgray;
+  transition: 300ms;
+
+  &:not(:last-child) {
+    margin-right: 5px;
+  }
+
+  &.active {
+    background-color: steelblue;
+    color: white;
+  }
+}
