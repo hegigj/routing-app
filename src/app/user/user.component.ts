@@ -13,7 +13,9 @@ export class UserComponent implements OnInit {
     private activatedRoute: ActivatedRoute
   ) { }
 
-  ngOnInit(): void {}
+  ngOnInit(): void {
+
+  }
 
   openUser(id: number): void {
     this.router.navigate([id], {
